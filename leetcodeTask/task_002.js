@@ -20,4 +20,6 @@ var isValid = function(s) {
     return brackets.length === 0;
 };
 
-console.log(isValid(s))
+module.exports = () => {
+    return isValid(s);
+}
